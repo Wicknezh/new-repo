@@ -1,3 +1,3 @@
 export default function ForgetPassword() {
-    return <h1> Forget password </h1>;
+    return <h1> Forget password 124 </h1>;
   }
