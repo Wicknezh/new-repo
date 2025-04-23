@@ -1,8 +1,5 @@
-export const metadata= {
-  title:{
-    default : "My Next App",
-    template :"%s test"
-  },
+export const metadata = {
+  title: "My Next App",
   description: "Generated with Next.js",
 };
 
@@ -11,14 +8,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head />
       <body>
-        <header
-          style={{
-            backgroundColor: "blue",
-            border: "1px solid black",
-          }}
-        >
-          <h1>My App Header</h1>
-        </header>
 
         <main>{children}</main>
 
